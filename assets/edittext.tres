@@ -1,0 +1,24 @@
+[gd_resource type="Theme" load_steps=6 format=3 uid="uid://d16lp56be4vmb"]
+
+[ext_resource type="FontFile" uid="uid://cy43dijytwhes" path="res://assets/Lazydog.otf" id="1_5wjfv"]
+[ext_resource type="Texture2D" uid="uid://dklpasdabmhdd" path="res://assets/editt.png" id="2_civob"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_ravh1"]
+texture = ExtResource("2_civob")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_6q6fi"]
+texture = ExtResource("2_civob")
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_vpo8g"]
+texture = ExtResource("2_civob")
+
+[resource]
+LineEdit/colors/caret_color = Color(0.584314, 0.352941, 0.247059, 1)
+LineEdit/colors/font_color = Color(0.584314, 0.352941, 0.247059, 1)
+LineEdit/colors/font_selected_color = Color(0.960784, 0.831373, 0.890196, 1)
+LineEdit/colors/selection_color = Color(0.584314, 0.352941, 0.247059, 1)
+LineEdit/font_sizes/font_size = 35
+LineEdit/fonts/font = ExtResource("1_5wjfv")
+LineEdit/styles/focus = SubResource("StyleBoxTexture_ravh1")
+LineEdit/styles/normal = SubResource("StyleBoxTexture_6q6fi")
+LineEdit/styles/read_only = SubResource("StyleBoxTexture_vpo8g")
