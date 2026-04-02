@@ -12,8 +12,7 @@ Banco de Dados: SQLite
 
 Design: Canva
 
-🎨 Acessibilidade e Design
-O projeto foi pensado seguindo diretrizes específicas para o público neurodivergente:
+🎨 O projeto foi pensado seguindo diretrizes específicas para o público neurodivergente:
 
 Contraste adequado: Cores pasteis que não agridem a visão.
 
